@@ -1,0 +1,17 @@
+---
+title: "Final Project Observations"
+author: "Irene Arias Gutierrez" 
+date: "April 7, 2022" 
+output: html_document
+---
+
+## Final Project Functions 
+### These functions represent the main body of my package 
+
+ For this project I will be generating functions that are capable of generating a contact matrix for a specific data set (repeceptor + ligand) and print the contacts based on a given cutoff distance (armstrongs). Another function will provide a contact or heat map.  Here is the definition  of my functions 
+ 
++ ContMat: ContMat (short for Contact Matrix) will provide the matrix for amino acid residues that are defined to be in contact based on a specific cutoff. 
++ ContMap: Provides a vizualization method for the previous function. It will provide a broader picture in order to vizualize the results as a heat map. 
+
+
+A TestDataSet will be provided in the package. 
